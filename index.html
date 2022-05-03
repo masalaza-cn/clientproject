@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Client Project</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Your CSS Linked Below-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-    <h1> Client Project </h1>
-    
+    <div id="container">
+      <div id="header">
+        <input id="cityInput" placeholder="Please enter city..." />
+        <input id="stateInput" placeholder="Please enter state..." />
+        <button class="submit">Search</button>
+      </div>
+      <div id="when-where">
+        <p id="city">City</p>
+        <p id="date">Date</p>
+      </div>
+      <div id="now">
+        <p id="temp">Temp</p>
+        <p id="feelsLike">Feels like...</p>
+        <p id="conditions">Conditions</p>
+        <p id="min">Min. Temp</p>
+        <p id="max">Max Temp</p>
+      </div>
+    </div>
     <!-- jQuery Linked Below-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Your Javascript Linked Below-->
-    <script src="js/script.js" defer></script> 
+    <script src="js/script.js" defer></script>
   </body>
-
 </html>
