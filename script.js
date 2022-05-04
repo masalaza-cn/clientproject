@@ -20,6 +20,7 @@ $(".submit").click(function () {
       return response.json();
     })
 
+  
     .then(function (data) {
       $("#city").html(`${data.name}, ${data.sys.country}`);
       $("#temp").html(`${data.main.temp}°`);
